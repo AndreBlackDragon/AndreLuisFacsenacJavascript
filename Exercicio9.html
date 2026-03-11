@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    
+    <script>
+        let numero = parseInt(prompt("Digite um numero: "));
+        var add = []
+        var mult = []
+        var div = []
+
+        for(let i = 1; i <= 10; i++)
+        {
+            add.push(numero + i);
+            mult.push(numero * i);
+            div.push((numero * i) / numero);
+        };
+        alert("Adicao " + add.join(", "));
+        alert("Multiplicacao " + mult.join(", "));
+        alert("Divisao " + div.join(", "));
+
+        
+    </script>
+</body>
+</html>
