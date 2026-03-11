@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    
+    <script>
+        const livro = {
+            titulo : "O Senhor dos Anéis",
+            autor : "J.R.R. Tolkien",
+            
+        };
+
+        console.log(livro);
+        livro.titulo = prompt("Digite o novo título:");
+        console.log(livro);
+        livro.anolancamento = prompt("Digite o ano de lançamento:");
+        console.log(livro);
+        delete livro.autor;
+        console.log(livro);
+        
+    </script>
+</body>
+</html>
